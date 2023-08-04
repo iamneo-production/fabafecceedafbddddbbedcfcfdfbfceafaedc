@@ -5,25 +5,24 @@ import javax.persistence.Id;
 @Entity
 public class Task {
 @Id
-    private long taskid;
-    private String taskholdername;
-    private Date taskdate;
-    private String taskName;
-    private String taskStatus;
-    public Task(long taskid,String taskholdername,Date taskdate,String taskName,String taskStatus)
-    {
-        super();
-        this.taskid=taskid;
-        this.taskholdername=taskholdername;
-        this.taskdate=taskdate;
-        this.taskName=taskName;
-        this.taskStatus=taskStatus;
-        
-    }
-    public Task()
-    {
-        super();
-    }
+private long taskid;
+private String taskholdername;
+private Date taskdate;
+private String taskName;
+private String taskStatus;
+public Task(long taskid,String taskholdername,Date taskdate,String taskName,String taskStatus){
+super();
+this.taskid=taskid;
+this.taskholdername=taskholdername;
+this.taskdate=taskdate;
+this.taskName=taskName;
+this.taskStatus=taskStatus;
+
+}
+public Task()
+{
+ super();
+}
 public long getTaskid() {
 return taskid;
 }
