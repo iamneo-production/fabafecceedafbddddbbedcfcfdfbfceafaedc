@@ -1,11 +1,7 @@
 package com.examly.springapp.services;
 import java.util.List;
-
-
 import com.examly.springapp.dao.Taskdao;
 import com.examly.springapp.entity.Task;
-
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
